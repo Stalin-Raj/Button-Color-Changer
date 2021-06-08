@@ -1,3 +1,7 @@
+body{
+  background: linear-gradient(to bottom,rgb(209, 145, 42),rgba(209, 145, 42,0.2)) no-repeat;
+  background:cover;
+}
 .flex-container{
   display:flex;
   flex-wrap:wrap;
