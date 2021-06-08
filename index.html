@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <title>Button Color Changer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">    
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+   <div class='flex-container'>
+    <form>
+      <select name="backdrop" onChange="buttonChanger(this)">
+        <option  value="btn btn-danger"  >red</option>
+        <option  value="btn btn-primary"  >blue</option>
+        <option  value="btn btn-success"  >green</option>
+        <option  value="btn btn-warning"  >yellow</option>
+      </select>
+      <button id="button-blue" class="btn btn-primary">Facebook</button>
+      <button id="button-red" class="btn btn-danger">Youtube</button>
+      <button id="button-yellow" class="btn btn-warning">Swiggy</button>
+      <button id="button-green" class="btn btn-success">Shopify</button>
+   </div>
+     <script src="app.js"></script>
+  </body>
